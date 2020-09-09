@@ -18,6 +18,7 @@ class Circle {
 $pattern = "/^\s*[0-9]+[.]?[0-9]*\s*$/";
 $stringRadius = '';
 $validate = false;
+
 while ($validate == false) {
 	$stringRadius = readline("Enter radius: ");
 	$validate = preg_match($pattern, $stringRadius);

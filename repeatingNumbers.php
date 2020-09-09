@@ -10,7 +10,7 @@ $validate = true;
 foreach ($arrayNum as $key=>$value) {
 	$validate = preg_match($pattern, $value);
 	if ($validate == false) {
-    unset($arrayNum[$key]);
+		unset($arrayNum[$key]);
 	}
 }
 
